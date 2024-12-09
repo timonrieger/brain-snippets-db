@@ -23,7 +23,7 @@ Bootstrap5(app)
 login_manager = LoginManager()
 login_manager.init_app(app)
 
-admins = ["timon@riegerx.de", "maxkompass@gmail.com"]
+admins = []
 
 # TODO: Configure Flask-Gravatar
 gravatar = Gravatar(app, size=100, rating='g', default='retro', force_default=False, force_lower=False, use_ssl=False, base_url=None)
